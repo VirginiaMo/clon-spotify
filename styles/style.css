@@ -1,8 +1,23 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.logo{
+    max-height: 70px;
+    
+}
 
-*/
+.flexNav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexUl {
+    display: flex;
+    list-style: none;
+}
+
+ul.flexUl > li {
+    padding: 10px;
+}
+.titleImage{
+    max-width: -webkit-fill-available;
+    padding-top: 30px;
+}
