@@ -99,6 +99,7 @@ hr{
     margin-bottom: 20px;
     display: flex;
     position:relative;
+    justify-content: space-evenly;
 }
 .tituloFooter{
     margin-bottom: -1px;
@@ -107,6 +108,7 @@ hr{
     flex-flow: column;
     display: flex;
     list-style: none;
+    padding-top: 50px;
 }
 .footerImg {
     max-width: 258px;
@@ -118,7 +120,8 @@ hr{
 }
 .lineFooter {
     background: white;
-    width: 100%;
+    width: 63%;
+    margin-left: 0px;
 }
 ul > li.textoFooter {
     width: 70%;
